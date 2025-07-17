@@ -38,9 +38,18 @@ const HeroBanner4 = ({
               <span className="span" style={{ fontSize: '24px', fontWeight: '600' }}>
                 Hi, We are PurpleAI 👋
               </span>
-              <span className="span" style={{ fontSize: '24px', fontWeight: '600' }}>
-                {subtitle}
-              </span>
+              <span
+  className="subtitle-text"
+  style={{
+    fontSize: '24px',
+    fontWeight: '600',
+    display: 'block',
+    color: '#8000ff',
+  }}
+>
+  {subtitle}
+</span>
+
               <h1 style={{ fontSize: '50px', fontWeight: '800' }}>{title}</h1>
 
               {expertiseHighlights && (

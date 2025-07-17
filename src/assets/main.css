@@ -11365,7 +11365,7 @@ a.header__search.header-search-btn p {
 
 .hero4 {
   position: relative;
-  min-height: 1000px;
+  min-height: 900px;
   background-color: #F9F8FA;
   display: flex;
   align-items: center;
@@ -24092,4 +24092,20 @@ background-color: unset;
 .tech-box:hover {
   background-color: #007bff; /* Bootstrap Blue */
   color: #fff;
+}
+
+.subtitle-text {
+  margin-bottom: 20px;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .subtitle-text {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+
+  .heading4 {
+    margin-bottom: 20px;
+  }
 }

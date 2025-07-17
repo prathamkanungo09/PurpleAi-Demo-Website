@@ -5,11 +5,11 @@ import parse from 'html-react-parser';
 
 const Services4 = () => {
     return (
-        <div className="service4 sp">
+        <div className="service4 ">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-8 m-auto text-center">
-                        <div className="heading4" >
+                        <div className="heading4" style={{ marginTop: '50px' }} >
                             <SectionTitle2
                                 SubTitle="Our Services"
                                 Title="Cutting-edge AI solutions tailored to your business needs"
@@ -46,7 +46,7 @@ const Services4 = () => {
                         {/* <div className="" data-aos="zoom-in-up" data-aos-duration="700">
                             <Link className="theme-btn5" to="/service">More Services <span><i className="bi bi-arrow-right"></i></span></Link>
                         </div> */}
-                        <div className="" data-aos="zoom-in-up" data-aos-duration="700">
+                        <div className="" style={{ marginBottom: '50px' }} data-aos="zoom-in-up" data-aos-duration="700">
                             <Link className="theme-btn5">More Services <span><i className="bi bi-arrow-right"></i></span></Link>
                         </div>
                     </div>
