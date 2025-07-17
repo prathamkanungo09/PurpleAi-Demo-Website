@@ -27,11 +27,11 @@ const models = [
 
 const CollaborationModels = () => {
   return (
-    <div className="collab-section">
+    <div className="">
       {/* <h2 className="collab-title">Collaboration Models</h2> */}
       <div className="heading4 text-center" style={{ marginBottom: '40px' }}>
           <SectionTitle2
-            SubTitle="Collaboration Models 👋"
+            SubTitle="Collaboration Models"
             Title="Flexible Engagement Models to Fit Your Needs"
             // Description="From foundational data engineering to cognitive AI systems, PurpleAI delivers capabilities across the entire data journey."
           />

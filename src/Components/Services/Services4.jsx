@@ -11,7 +11,7 @@ const Services4 = () => {
                     <div className="col-lg-8 m-auto text-center">
                         <div className="heading4" >
                             <SectionTitle2
-                                SubTitle="Our Service 👋"
+                                SubTitle="Our Services"
                                 Title="Cutting-edge AI solutions tailored to your business needs"
                             ></SectionTitle2>
                         </div>

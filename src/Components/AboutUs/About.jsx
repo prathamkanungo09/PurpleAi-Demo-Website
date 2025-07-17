@@ -13,7 +13,7 @@ const AboutUs = () => {
         </div> */}
         <div className="heading4 text-center" style={{ marginBottom: '40px' }}>
           <SectionTitle2
-            SubTitle="About Us 👋"
+            SubTitle="About Us"
             Title="Our Mission and Vision"
             // Description="From foundational data engineering to cognitive AI systems, PurpleAI delivers capabilities across the entire data journey."
           />

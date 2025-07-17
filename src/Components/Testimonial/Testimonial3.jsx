@@ -56,7 +56,7 @@ const Testimonial3 = () => {
             <div className="col-md-7 m-auto text-center">
               <div className="heading4-w">
                     <SectionTitle2
-                        SubTitle="Testimonials 👋"
+                        SubTitle="Testimonials"
                         Title="What Our Clients Say About PurpleAI"
                     ></SectionTitle2> 
               </div>

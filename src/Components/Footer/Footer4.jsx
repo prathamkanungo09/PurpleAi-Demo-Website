@@ -40,12 +40,12 @@ const Footer4 = () => {
             <div className="single-footer-items">
               <h3>Services We Offer</h3>
               <ul className="menu-list">
-                <li><Link to="/service/service-details">AI Consulting</Link></li>
-                <li><Link to="/service/service-details">Generative AI</Link></li>
-                <li><Link to="/service/service-details">AI Development</Link></li>
-                <li><Link to="/service/service-details">Data Engineering</Link></li>
+                <li><Link>AI Consulting</Link></li>
+                <li><Link >Generative AI</Link></li>
+                <li><Link>AI Development</Link></li>
+                {/* <li><Link to="/service/service-details">Data Engineering</Link></li>
                 <li><Link to="/service/service-details">MLOps</Link></li>
-                <li><Link to="/service/service-details">AI Assist</Link></li>
+                <li><Link to="/service/service-details">AI Assist</Link></li> */}
               </ul>
             </div>
           </div>
@@ -54,11 +54,13 @@ const Footer4 = () => {
             <div className="single-footer-items">
               <h3>Useful Links</h3>
               <ul className="menu-list">
-                <li><Link to="/about">About Us</Link></li>
-                <li><Link to="/service">Our Services</Link></li>
-                <li><Link to="/blog">Blog & News</Link></li>
-                <li><Link to="/project">Projects</Link></li>
-                <li><Link to="/contact">Contact Us</Link></li>
+                <li><Link>About Us</Link></li>
+                <li><Link>Our Services</Link></li>
+                <li><Link>Our Capabilities</Link></li>
+                <li><Link>Collaboration Models</Link></li>
+                <li><Link>Testimonials</Link></li>
+                <li><Link>Data Spectrum & Our Offerings</Link></li>
+                <li><Link>Contact Us</Link></li>
               </ul>
             </div>
           </div>
@@ -121,7 +123,7 @@ const Footer4 = () => {
           <div className="row align-items-center">
             <div className="col-md-5">
               <div className="coppyright">
-                <p>Copyright ©2024 PurpleAI. All Rights Reserved.</p>
+                <p>Copyright ©2025 PurpleAI. All Rights Reserved.</p>
               </div>
             </div>
             <div className="col-md-7">

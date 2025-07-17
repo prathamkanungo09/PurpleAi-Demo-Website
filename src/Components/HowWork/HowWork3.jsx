@@ -15,7 +15,7 @@ const HowWork3 = () => {
           <div className="col-lg-8 m-auto text-center">
             <div className="heading4">
               <SectionTitle2
-                SubTitle="Our Capabilities 👋"
+                SubTitle="Our Capabilities"
                 Title="Unlocking Business Potential Through AI Expertise"
               />
             </div>

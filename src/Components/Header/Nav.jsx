@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Nav({ setMobileToggle }) {
   return (
     <ul className="cs_nav_list fw-medium">
-      <li className="menu-item-has-children">
+      <li className="">
         <Link to="/">Home</Link>
         {/* <DropDown>
           <ul> */}
@@ -37,7 +37,7 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
       </li>
 
-      <li className="menu-item-has-children">
+      <li className="">
         <Link>
         About Us  
         </Link>
@@ -58,8 +58,8 @@ export default function Nav({ setMobileToggle }) {
 
       </li>      
 
-      <li className="menu-item-has-children">
-        <Link>Pages</Link>
+      <li className="">
+        <Link>Services</Link>
         {/* <DropDown>
           <ul>
             <li>
@@ -105,9 +105,9 @@ export default function Nav({ setMobileToggle }) {
           </ul>
         </DropDown> */}
       </li>      
-      <li className="menu-item-has-children">
+      <li className="">
         <Link>
-        Project  
+        Capabilities 
         </Link>
         {/* <DropDown>
           <ul>
@@ -155,9 +155,9 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
 
       </li>      
-      <li className="menu-item-has-children">
+      <li className="">
         <Link>
-          Services
+          Contact Us
         </Link>
         {/* <DropDown>
           <ul>
@@ -205,62 +205,7 @@ export default function Nav({ setMobileToggle }) {
         </DropDown> */}
 
       </li>      
-      <li className="menu-item-has-children">
-        <Link>
-          Blog
-        </Link>
-        {/* <DropDown>
-          <ul>
-            <li>
-              <Link to="/blog" onClick={() => setMobileToggle(false)}>
-                Blog Light
-              </Link>
-            </li> 
-            <li>
-              <Link to="/blogdark" onClick={() => setMobileToggle(false)}>
-                Blog Dark
-              </Link>
-            </li>                      
-            <li>
-              <Link
-                to="/blog/blog-details"
-                onClick={() => setMobileToggle(false)}
-              >
-                Blog Details Left
-              </Link>
-            </li>
-            <li>
-              <Link to="/blog/blog-details-right" onClick={() => setMobileToggle(false)}>
-              Blog Details Right
-              </Link>
-            </li>  
-            <li>
-              <Link to="/blog/blog-details-center" onClick={() => setMobileToggle(false)}>
-              Blog Details Center
-              </Link>
-            </li> 
-            <li>
-              <Link
-                to="/blog/blog-details-dark"
-                onClick={() => setMobileToggle(false)}
-              >
-                Blog Details Left Dark
-              </Link>
-            </li>
-            <li>
-              <Link to="/blog/blog-details-right-dark" onClick={() => setMobileToggle(false)}>
-              Blog Details Right Dark
-              </Link>
-            </li>  
-            <li>
-              <Link to="/blog/blog-details-center-dark" onClick={() => setMobileToggle(false)}>
-              Blog Detail Center Dark
-              </Link>
-            </li>           
-
-          </ul>
-        </DropDown> */}
-      </li>
+      
     </ul>
   );
 }

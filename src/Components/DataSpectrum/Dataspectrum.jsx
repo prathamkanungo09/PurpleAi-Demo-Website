@@ -28,7 +28,7 @@ const DataSpectrum = () => {
       <div className="container">
         <div className="heading4 text-center" style={{ marginBottom: '40px' }}>
           <SectionTitle2
-            SubTitle="Data Spectrum & Our Offering 👋"
+            SubTitle="Data Spectrum & Our Offerings"
             Title="Comprehensive Coverage Across The Data Spectrum"
             Description="From foundational data engineering to cognitive AI systems, PurpleAI delivers capabilities across the entire data journey."
           />
