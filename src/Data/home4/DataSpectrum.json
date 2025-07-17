@@ -1,0 +1,61 @@
+[
+  {
+    "level": "FOUNDATION",
+    "desc": "Plumbing, pipelines and modernization.",
+    "items": [
+     
+    ]
+  },
+  {
+    "level": "DESCRIPTIVE",
+    "desc": "What happened?",
+    "items": [
+      "Dashboards",
+      "Performance Summary",
+      "Visibility & BI",
+      "Trends"
+    ]
+  },
+  {
+    "level": "DIAGNOSTIC",
+    "desc": "What happened & why?",
+    "items": [
+      "Diagnostics",
+      "Insights for analysis",
+      "Data-driven actions"
+    ]
+  },
+  {
+    "level": "PREDICTIVE",
+    "desc": "What will happen? What drives it?",
+    "items": [
+      "Prediction",
+      "Automation",
+      "Algorithms & Modeling",
+      "Features Engineering & experimentation"
+    ]
+  },
+  {
+    "level": "PRESCRIPTIVE",
+    "desc": "Strategic Benefit. Insights, Experiments, Recommendations & Optimisation.",
+    "items": [
+      "Experience optimization",
+      "Personalization",
+      "Decision Support",
+      "Machine Learning Algorithms",
+      "Patterns & Predictions"
+    ]
+  },
+  {
+    "level": "COGNITIVE",
+    "desc": "Are we doing this right, at scale, with trust?",
+    "items": [
+      "Augmented decision making",
+      "Process Automation",
+      "Sensors and IoT",
+      "Insights to autonomous systems",
+      "Train & learn",
+      "Patterns & Predictions"
+    ]
+  }
+]

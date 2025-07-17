@@ -1,0 +1,20 @@
+[
+  {
+    "icon": "/assets/img/testimonial/client1.png",
+    "desc": "PurpleAI’s expertise in AI consulting has transformed our data workflows, saving us time and money. Their team delivered beyond our expectations.",
+    "title": "Emma Johnson",
+    "subtitle": "CTO, InnovateTech Solutions"
+  },
+  {
+    "icon": "/assets/img/testimonial/client2.png",
+    "desc": "Partnering with PurpleAI allowed us to deploy cutting-edge Generative AI solutions tailored to our industry. Truly outstanding service and support.",
+    "title": "Michael Thompson",
+    "subtitle": "CEO, Visionary Digital"
+  },
+  {
+    "icon": "/assets/img/testimonial/client3.png",
+    "desc": "From MLOps to AI development, PurpleAI has been an invaluable partner. Their technical skill and business understanding are exceptional.",
+    "title": "Sophia Martinez",
+    "subtitle": "Head of Data Science, FutureTech Group"
+  }
+]

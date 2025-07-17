@@ -1,0 +1,60 @@
+.collab-section {
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.collab-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 12px;
+}
+
+.collab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.collab-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.collab-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.collab-card h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.collab-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.plus-icon {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  font-size: 24px;
+  color: #34c38f; /* soft green */
+  font-weight: bold;
+}
+.collab-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* fixed 2 columns */
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}

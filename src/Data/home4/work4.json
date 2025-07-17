@@ -1,0 +1,87 @@
+[
+  {
+    "subtitle": "Supports COBOL + 5 languages",
+    "title": "Application Modernization",
+    "desc": "Migrate your legacy technology stack seamlessly with AI.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Data Modernization",
+    "title": "Data Platform Modernization",
+    "desc": "A modern data architecture that enable scale, transparency, agility, trust, federation, self-service.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple ETL",
+    "title": "Intelligent Data Transformation",
+    "desc": "AI driven ETL system designed to help business manage diverse data sources.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Developer",
+    "title": "AI for applications",
+    "desc": "Redefine software development by merging human wisdom with AI action by infusing AI in every stages of software development.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+ 
+  {
+    "subtitle": "Purple Curate",
+    "title": "Hyper Personalization",
+    "desc": "Creating seamless personalized user experience across digital touchpoints using behavioural & engagement data.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Vision",
+    "title": "Core ML platform implementation",
+    "desc": "Enterprise ready scalable AI-ML platform to cover end to end workflow from development to production.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Optimize",
+    "title": "AI for Enterprise",
+    "desc": "Unlock the power of AI across your enterprise with an adaptive strategy designed to accelerate IT solutions and break organisational silos.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Forecast",
+    "title": "Forecasting & Simulation",
+    "desc": "Improve accuracy of forecasting through the application of real time data and context; scenario planning.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Detect",
+    "title": "Pattern Recognition",
+    "desc": "Identify deviations or anomalies within data and flagging them.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Recommend",
+    "title": "Personalisation & Recommendation",
+    "desc": "Tailoring of options to present the most valuable or likely outcome.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Purple Compliance",
+    "title": "Guardrails and Compliance",
+    "desc": "Ensuring Regulatory Compliance and Brand Alignment.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+   {
+    "subtitle": "Purple Insights",
+    "title": "AI Driven Insight Generation",
+    "desc": "Summarising data, performing analysis and generating new insights & visualizations.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  }
+]

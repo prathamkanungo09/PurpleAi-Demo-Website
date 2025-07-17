@@ -1,0 +1,221 @@
+/* ANIMATIONS */
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255,255,255,0.3);
+  }
+}
+
+/* ORIGINAL STYLES */
+
+.spectrum-steps {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.spectrum-step {
+  flex: 0 0 175px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeSlideUp 0.6s ease forwards;
+}
+
+.spectrum-step:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.spectrum-step:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.spectrum-step:nth-child(3) {
+  animation-delay: 0.3s;
+}
+/* Add more delays if you have more steps */
+
+.spectrum-step:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.spectrum-step h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.spectrum-step .desc {
+  font-size: 11px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.spectrum-step ul {
+  padding-left: 18px;
+  font-size: 11px;
+  margin-bottom: 0;
+}
+
+.spectrum-step ul li {
+  margin-bottom: 4px;
+  list-style-type: disc;
+}
+
+.spectrum-step i {
+  margin-right: 5px;
+  color: #ffffff;
+}
+
+.spectrum-bottom-bars {
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.spectrum-bar {
+  flex: 1;
+  color: #fff;
+  background-color: #7E22CE; 
+  font-size: 10px;
+  padding: 10px 16px;
+  text-align: center;
+  min-width: 120px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin: 4px;
+  border-radius: 999px; /* Fully rounded like a pill */
+  font-weight: 600;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animate all .spectrum-step boxes on load */
+.spectrum-step {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideUp 0.7s ease forwards;
+}
+
+.spectrum-step:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.spectrum-step:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.spectrum-step:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.spectrum-step:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.spectrum-step:nth-child(5) {
+  animation-delay: 1.0s;
+}
+
+/* Animate bottom bars in proper sequence too */
+.spectrum-bar {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeSlideUp 0.7s ease forwards;
+}
+
+.spectrum-bar:nth-child(1) {
+  animation-delay: 1.2s;
+}
+.spectrum-bar:nth-child(2) {
+  animation-delay: 1.4s;
+}
+.spectrum-bar:nth-child(3) {
+  animation-delay: 1.6s;
+}
+.spectrum-bar:nth-child(4) {
+  animation-delay: 1.8s;
+}
+.spectrum-bar:nth-child(5) {
+  animation-delay: 2.0s;
+}
+
+.spectrum-chart-wrapper {
+  position: relative;
+  padding-left: 80px; /* Space for Y axis label */
+  padding-bottom: 60px; /* Space for X axis label */
+}
+
+.axis {
+  position: absolute;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.y-axis {
+  top: 0;
+  bottom: 60px; /* Leave space for X axis label */
+  left: 0;
+  width: 60px;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+}
+
+.x-axis {
+  left: 80px;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+}
+
+.y-axis-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -4px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #333;
+}
+
+.x-axis-line::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -4px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 10px solid #333;
+}
+

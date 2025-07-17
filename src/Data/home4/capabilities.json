@@ -1,0 +1,44 @@
+[
+  {
+    "subtitle": "Capability 01",
+    "title": "AI Consulting",
+    "desc": "Develop a strategic AI roadmap with expert guidance, uncover high-impact AI opportunities for your business, and establish a clear path to successful implementation.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Capability 02",
+    "title": "GenAI Development",
+    "desc": "Transform cutting-edge, general-purpose Generative AI models into customized solutions that solve your unique business challenges.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box active heading4"
+  },
+  {
+    "subtitle": "Capability 03",
+    "title": "AI Development",
+    "desc": "Transform your business with AI solutions expertly designed, built, and deployed to meet your unique needs.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Capability 04",
+    "title": "Data Engineering Services",
+    "desc": "Turn raw data into actionable insights through powerful data pipelines and infrastructure, empowering data-driven decisions throughout your organization.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Capability 05",
+    "title": "MLOps",
+    "desc": "Accelerate your machine learning lifecycle—from development to deployment—with reliable, scalable AI solutions that reduce time-to-market and boost efficiency.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  },
+  {
+    "subtitle": "Capability 06",
+    "title": "AI Assist",
+    "desc": "Empower your workforce with an intelligent AI assistant that transforms knowledge management—enabling seamless information retrieval, semantic search, and automated summarization.",
+    "btnLink": "/service/service-details",
+    "addClass": "work4-box heading4"
+  }
+]
