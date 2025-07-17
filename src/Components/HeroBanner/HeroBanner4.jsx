@@ -1,38 +1,15 @@
-import Slider from "react-slick";
 import parse from 'html-react-parser';
 
-const HeroBanner4 = ({ subtitle, title, content, btnone, btnoneurl, btntwo, shape1, expertiseHighlights }) => {
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 2000,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: false,
-    swipeToSlide: true,
-    autoplay: true,
-    responsive: [
-      {
-        breakpoint: 1399,
-        settings: {
-          slidesToShow: 3,
-        }
-      },
-      {
-        breakpoint: 1199,
-        settings: {
-          slidesToShow: 2,
-        }
-      },
-      {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
-  };
+const HeroBanner4 = ({
+  subtitle,
+  title,
+  content,
+  btnone,
+  btnoneurl,
+  btntwo,
+  shape1,
+  expertiseHighlights
+}) => {
 
   const scrollToServices = () => {
     const section = document.getElementById("services-section");
@@ -41,13 +18,29 @@ const HeroBanner4 = ({ subtitle, title, content, btnone, btnoneurl, btntwo, shap
     }
   };
 
+  const techData = [
+    "Data Integration",
+    "Data Management",
+    "Compute Framework",
+    "Mining & Analytics",
+    "Data Visualization",
+    "Marketing Analytics",
+    "AI / Data Science"
+  ];
+
   return (
-    <div className="hero4" >
+    <div className="hero4">
       <div className="container">
         <div className="row">
+          {/* Left Column */}
           <div className="col-lg-6">
             <div className="main-heading">
-              <span className="span" style={{ fontSize: '24px', fontWeight: '600' }}>{subtitle}</span>
+              <span className="span" style={{ fontSize: '24px', fontWeight: '600' }}>
+                Hi, We are PurpleAI 👋
+              </span>
+              <span className="span" style={{ fontSize: '24px', fontWeight: '600' }}>
+                {subtitle}
+              </span>
               <h1 style={{ fontSize: '50px', fontWeight: '800' }}>{title}</h1>
 
               {expertiseHighlights && (
@@ -64,16 +57,13 @@ const HeroBanner4 = ({ subtitle, title, content, btnone, btnoneurl, btntwo, shap
               <p>{parse(content)}</p>
 
               <div className="space30"></div>
-              <div
-                className="buttons"
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '16px',
-                  flexWrap: 'wrap',
-                  marginTop: '20px',
-                }}
-              >
+              <div className="buttons" style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '16px',
+                flexWrap: 'wrap',
+                marginTop: '20px',
+              }}>
                 <a
                   className="theme-btn5"
                   href={btnoneurl}
@@ -91,20 +81,18 @@ const HeroBanner4 = ({ subtitle, title, content, btnone, btnoneurl, btntwo, shap
                   }}
                 >
                   {btnone}
-                  <span
-                    style={{
-                      display: 'inline-block',
-                      height: '40px',
-                      width: '40px',
-                      backgroundColor: '#fff',
-                      borderRadius: '50%',
-                      color: '#6E18EF',
-                      textAlign: 'center',
-                      lineHeight: '40px',
-                      marginLeft: '8px',
-                      transform: 'rotate(-45deg)',
-                    }}
-                  >
+                  <span style={{
+                    display: 'inline-block',
+                    height: '40px',
+                    width: '40px',
+                    backgroundColor: '#fff',
+                    borderRadius: '50%',
+                    color: '#6E18EF',
+                    textAlign: 'center',
+                    lineHeight: '40px',
+                    marginLeft: '8px',
+                    transform: 'rotate(-45deg)',
+                  }}>
                     <i className="bi bi-arrow-right"></i>
                   </span>
                 </a>
@@ -127,58 +115,36 @@ const HeroBanner4 = ({ subtitle, title, content, btnone, btnoneurl, btntwo, shap
                   }}
                 >
                   {btntwo}
-                  <span
-                    style={{
-                      display: 'inline-block',
-                      height: '40px',
-                      width: '40px',
-                      backgroundColor: '#fff',
-                      borderRadius: '50%',
-                      color: '#0B0F19',
-                      textAlign: 'center',
-                      lineHeight: '40px',
-                      marginLeft: '8px',
-                      transform: 'rotate(-45deg)',
-                    }}
-                  >
+                  <span style={{
+                    display: 'inline-block',
+                    height: '40px',
+                    width: '40px',
+                    backgroundColor: '#fff',
+                    borderRadius: '50%',
+                    color: '#0B0F19',
+                    textAlign: 'center',
+                    lineHeight: '40px',
+                    marginLeft: '8px',
+                    transform: 'rotate(-45deg)',
+                  }}>
                     <i className="bi bi-arrow-right"></i>
                   </span>
                 </button>
               </div>
 
-
-              <div className="slider-area">
+              <div className="slider-area" style={{ marginTop: '40px', }}>
                 <h3>Technology Ecosystem We Work With</h3>
-                <div className="logo-slider owl-carousel hero_gap_3">
-                  <Slider {...settings}>
-                    {[
-                      "Data Integration",
-                      "Data Management",
-                      "Compute Framework",
-                      "Mining & Analytics",
-                      "Data Visualization",
-                      "Marketing Analytics",
-                      "AI/Data Science"
-                    ].map((text, i) => (
-                      <div className="single-slider" key={i}>
-                        <h4 style={{
-                          textAlign: 'center',
-                          fontSize: '20px',
-                          fontWeight: '600',
-                          color: '#673ab7',
-                          background: '#f3f3f3',
-                          padding: '20px',
-                          borderRadius: '8px',
-                          minHeight: '80px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center'
-                        }}>
-                          {text}
-                        </h4>
-                      </div>
-                    ))}
-                  </Slider>
+
+                {/* All Button
+                <button className="ecosystem-all-btn">
+                  All
+                </button> */}
+
+                {/* Tech items grid */}
+                <div className="tech-grid" style={{ marginTop: '40px', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(120px, 1fr))', gap: '10px' }}>
+                  {techData.map((text, i) => (
+                    <div className="tech-box" key={i}>{text}</div>
+                  ))}
                 </div>
               </div>
 
@@ -186,12 +152,17 @@ const HeroBanner4 = ({ subtitle, title, content, btnone, btnoneurl, btntwo, shap
             </div>
           </div>
 
+          {/* Right Column */}
           <div className="col-lg-6">
             <div className="main-image">
               <img
                 src="/assets/img/hero/hero4-img.png"
                 alt=""
-                style={{ maxHeight: '400px', width: '100%', objectFit: 'contain' }}
+                style={{
+                  maxHeight: '400px',
+                  width: '100%',
+                  objectFit: 'contain'
+                }}
               />
             </div>
           </div>

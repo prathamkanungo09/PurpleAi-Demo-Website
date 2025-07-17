@@ -24027,3 +24027,69 @@ background-color: unset;
 .fade-slide-up {
   animation: fadeSlideUp 0.6s ease forwards;
 }
+
+.ecosystem-all-btn {
+  margin: 10px 0 20px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #6E18EF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ecosystem-all-btn:hover {
+  background-color: #4b0bb8;
+}
+
+/* Grid container */
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* Box style */
+.tech-box {
+  background-color: #f3f3f3;
+  color: #673ab7;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .tech-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.tech-box {
+  background-color: #f3f3f3;
+  color: #673ab7;
+  font-weight: 600;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.tech-box:hover {
+  background-color: #007bff; /* Bootstrap Blue */
+  color: #fff;
+}
