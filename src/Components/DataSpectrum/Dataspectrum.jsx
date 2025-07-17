@@ -1,4 +1,4 @@
-import data from '../../Data/home4/dataspectrum.json';
+import data from '../../Data/home4/DataSpectrum.json';
 import './data.css';
 import SectionTitle2 from '../Common/SectionTitle2';
 
