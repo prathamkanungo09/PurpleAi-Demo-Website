@@ -28,7 +28,7 @@ const Services4 = () => {
                                 <img src={item.icon} alt="" />
                             </div>
                             <div className="heading4">
-                                <h4><Link to={item.btnLink}>{parse(item.title)}</Link></h4>
+                                <h4><Link>{parse(item.title)}</Link></h4>
                                 <div className="space16"></div>
                                 <p>{item.desc} </p>
                                 <div className="space16"></div>

@@ -38,7 +38,7 @@ const HowWork3 = () => {
                 <div className={item.addClass}>
                   <span className="after">{item.subtitle}</span>
                   <h4>
-                    <Link to={item.btnLink}>{item.title}</Link>
+                    <Link>{item.title}</Link>
                   </h4>
                   <div className="space16"></div>
                   <p>{item.desc}</p>
