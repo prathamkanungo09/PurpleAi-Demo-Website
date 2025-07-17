@@ -10,50 +10,43 @@ import Testimonial3 from "../Components/Testimonial/Testimonial3";
 import DataSpectrum from "../Components/DataSpectrum/Dataspectrum";
 import CollaborationModels from "../Components/CollaborationModels/CollaborationModels";
 import AboutUs from "../Components/AboutUs/About";
+import CustomerStories from "../Components/CustomerStories/CustomerStories";
 
 const Home4 = () => {
     return (
         <div>
             <HeroBanner4
-                subtitle="Hi, We are PurpleAI 👋"
-                title="Your AI Solution Partner"
-                content="Empower your business with AI innovation, from strategic consulting to custom AI development and MLOps solutions."
-                btnone="Contact Us"
+                subtitle="Deploy. Operate. Scale — with Industry-Fit AI."
+                title="AI-First solution for Adaptive, Self Governing Enterprises"
+                content="Enabling Intelligent Autonomy for Business Transformation."
+                btnone="Request Consultation"
                 // btnoneurl="/contact"
                 btntwo="Our Services"
-            // btntwourl="/service"
-            // shape1="/assets/img/shapes/hero4-image-shape.png"
+                
             />
 
-            {/* <About4
-    image1="/assets/img/about/about4-img1.png"
-    image2="/assets/img/about/about4-img2.png"
-    image3="/assets/img/about/about4-img3.png"
-    shape1="/assets/img/shapes/about3-shape1.png"
-    subTitle="About PurpleAI 👋"
-    Title="AI Consulting, Development, and Innovation"
-    content="PurpleAI helps businesses unlock the full potential of artificial intelligence through strategic consulting, customized generative AI development, and robust AI solutions tailored to unique needs."
-    expNum="25"
-    expCon="Years Experience"
-    featurelist={[
-        "AI Consulting",
-        "Generative AI",
-        "MLOps & Deployment",
-    ]}
-    btnName="Read More"
-    btnUrl="/about"
-/> */}
-            <AboutUs></AboutUs>
+            <AboutUs />
+            <Cta3 />
 
-            <Services4></Services4>
-            <HowWork3></HowWork3>
-            {/* <Project3></Project3>
-            <Pricing1></Pricing1> */}
-            <CollaborationModels></CollaborationModels>
-            <Testimonial3></Testimonial3>
-            <DataSpectrum></DataSpectrum>
-            {/* <Blog4></Blog4> */}
-            {/* <Cta3></Cta3> */}
+            {/* ✅ Wrap the Services4 component with a div that has an id */}
+            <div id="services-section">
+                <Services4 />
+            </div>
+
+            <HowWork3 />
+            {/* <Project3 />
+            <Pricing1 /> */}
+             <div style={{ textAlign: "center", marginBottom: "80px" }}>
+                <img
+                    src="/assets/img/others/12.png" 
+                    alt="Capabilities Graphic"
+                    style={{ width: "100%", maxWidth: "1450px", height: "auto" }}
+                />
+            </div>
+            <CollaborationModels />
+            <Blog4 />
+            <DataSpectrum />
+            <Testimonial3 />
         </div>
     );
 };

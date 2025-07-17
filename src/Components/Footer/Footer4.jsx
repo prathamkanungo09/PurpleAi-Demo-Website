@@ -7,12 +7,17 @@ const Footer4 = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-12">
             <div className="single-footer-items footer-logo-area">
-              {/* <div className="footer-logo">
-                                <Link to="/">
-                                    <img src="/assets/img/logo/header4-logo.png" alt="PurpleAI Logo" />
-                                </Link>
-                            </div> */}
-              <div>
+              <div className="footer-logo">
+  <Link to="/">
+    <img
+      src="/assets/img/logo/header4-logo.png"
+      alt="PurpleAI Logo"
+      style={{ width: "200px", height: "auto", maxHeight: "60px" }}
+    />
+  </Link>
+</div>
+
+              {/* <div>
                 <h2
                   className="footer-logo-title fontcolor"
                   style={{ color: "blue", fontWeight: "bold" }}
@@ -20,7 +25,7 @@ const Footer4 = () => {
                   PurpleAI
                 </h2>
 
-              </div>
+              </div> */}
               <div className="space20"></div>
               <div className="heading4">
                 <p>

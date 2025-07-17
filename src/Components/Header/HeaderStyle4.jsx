@@ -39,12 +39,12 @@ export default function Header4({ variant }) {
         <div className="container">
           <div className="cs_main_header_in">
 
-            {/* <div className="cs_main_header_left">
+            <div className="cs_main_header_left">
               <Link className="cs_site_branding header-four"  to="/">
                 <img src="/assets/img/logo/header4-logo.png" alt="Logo" />
               </Link>
-              </div> */}
-              <div>
+              </div>
+              {/* <div>
                 <h2
                   className="footer-logo-title fontcolor"
                   style={{ color: "blue", fontWeight: "bold" }}
@@ -52,7 +52,7 @@ export default function Header4({ variant }) {
                   PurpleAI
                 </h2>
 
-              </div>
+              </div> */}
 
               <div className="cs_main_header_center">
                 <div className="cs_nav cs_primary_font fw-medium">

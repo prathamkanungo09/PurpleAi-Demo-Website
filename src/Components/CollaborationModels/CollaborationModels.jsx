@@ -41,7 +41,7 @@ const CollaborationModels = () => {
           <div key={idx} className="collab-card">
             <h5>{model.title}</h5>
             <p>{model.description}</p>
-            <span className="plus-icon">+</span>
+            {/* <span className="plus-icon">+</span> */}
           </div>
         ))}
       </div>

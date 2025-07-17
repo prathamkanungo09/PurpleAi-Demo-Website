@@ -31,7 +31,7 @@ const cardData = [
 
 const AboutUs = () => {
   return (
-    <div className="about-us-section">
+    <div className="" style={{ marginTop: '80px' }}>
       <div className="container">
         <div className="heading4 text-center" style={{ marginBottom: '40px' }}>
           <SectionTitle2 SubTitle="About Us" Title="Our Mission and Vision" />

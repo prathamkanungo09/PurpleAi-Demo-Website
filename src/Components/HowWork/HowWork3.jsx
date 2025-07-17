@@ -9,7 +9,7 @@ const HowWork3 = () => {
   const visibleData = showAll ? data : data.slice(0, 6);
 
   return (
-    <div className="work4 sp">
+    <div className="work4 sp" >
       <div className="container">
         <div className="row">
           <div className="col-lg-8 m-auto text-center">

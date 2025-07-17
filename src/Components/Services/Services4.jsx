@@ -32,7 +32,7 @@ const Services4 = () => {
                                 <div className="space16"></div>
                                 <p>{item.desc} </p>
                                 <div className="space16"></div>
-                                <Link to={item.btnLink} className="learn-btn">Read More <span><i className="bi bi-arrow-right"></i></span></Link>
+                                <Link className="learn-btn">Read More <span><i className="bi bi-arrow-right"></i></span></Link>
                             </div>
                         </div>
                     </div>

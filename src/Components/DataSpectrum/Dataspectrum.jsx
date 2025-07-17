@@ -12,7 +12,6 @@ const colors = [
   '#1f3d7a'
 ];
 
-// Define bottom bar labels and colors
 const bottomBars = [
   { label: 'Modernization', color: '#003366' },
   { label: 'Visibility & BI', color: '#91d400' },
@@ -24,7 +23,7 @@ const bottomBars = [
 
 const DataSpectrum = () => {
   return (
-    <div className="data-spectrum-section sp">
+    <div className="">
       <div className="container">
         <div className="heading4 text-center" style={{ marginBottom: '40px' }}>
           <SectionTitle2
@@ -34,38 +33,32 @@ const DataSpectrum = () => {
           />
         </div>
 
-        <div className="spectrum-steps">
+        <div className="spectrum-items-wrapper">
           {data.map((layer, index) => (
-            <div
-              className="spectrum-step"
-              key={index}
-              style={{
-                height: `${heights[index]}px`,
-                backgroundColor: colors[index]
-              }}
-            >
-              <h3>{layer.level}</h3>
-              <p className="desc">{layer.desc}</p>
-              <ul>
-                {layer.items.map((item, i) => (
-                  <li key={i}>
-                    <i className="bi bi-check-circle"></i> {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-
-        {/* BOTTOM BARS */}
-        <div className="spectrum-bottom-bars">
-          {bottomBars.map((bar, i) => (
-            <div
-              className="spectrum-bar"
-              key={i}
-              style={{ backgroundColor: bar.color }}
-            >
-              {bar.label}
+            <div className="spectrum-item" key={index}>
+              <div
+                className="spectrum-step"
+                style={{
+                  height: `${heights[index]}px`,
+                  backgroundColor: colors[index]
+                }}
+              >
+                <h3>{layer.level}</h3>
+                <p className="desc">{layer.desc}</p>
+                <ul>
+                  {layer.items.map((item, i) => (
+                    <li key={i}>
+                      <i className="bi bi-check-circle"></i> {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div
+                className="spectrum-bar"
+                style={{ backgroundColor: bottomBars[index].color }}
+              >
+                {bottomBars[index].label}
+              </div>
             </div>
           ))}
         </div>

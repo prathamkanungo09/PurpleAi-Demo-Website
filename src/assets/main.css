@@ -6653,6 +6653,7 @@ a.header__search.header-search-btn p {
   padding: 24px;
   margin-top: 30px;
   transition: all 0.4s;
+  min-height: 360px;
 }
 .service4 .service4-box .icon {
   height: 80px;
@@ -11474,7 +11475,7 @@ a.header__search.header-search-btn p {
   color: var(--ztc-text-pera-text-1);
 }
 .hero4 .main-heading .slider-area {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-right: 60px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

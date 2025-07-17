@@ -43,14 +43,7 @@
   margin-bottom: 0;
 }
 
-.plus-icon {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  font-size: 24px;
-  color: #34c38f; /* soft green */
-  font-weight: bold;
-}
+
 .collab-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* fixed 2 columns */

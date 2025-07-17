@@ -2,30 +2,24 @@ import { Link } from "react-router-dom";
 
 const Cta3 = () => {
     return (
-        <div className="cta4">
+        <div className="cta4" style={{ marginTop: '100px' }}>
             <div className="container">
                 <div className="cta-bg-area">
                     <div className="row">
-                        <div className="col-lg-4">
+                        <div className="col-lg-6">
                             <div className="heading4-w">
-                                <h2 className="title tg-element-title" style={{ fontSize: "45px" }}>
-                                    Let’s Work Together To Build <br /> Something Great!
-                                </h2>
-                                
-                                <div className="space16"></div>
-                                
-                                <p>
-                                    Ready to transform your business with PurpleAI’s innovative AI solutions? Get in touch with us today.
-                                </p>
-
-                                <div className="space30"></div>
-
-                                {/* <Link to="/contact" className="theme-btn7">
-                                    Contact Us <span><i className="bi bi-arrow-right"></i></span>
-                                </Link> */}
-                                 <Link className="theme-btn7">
-                                    Contact Us <span><i className="bi bi-arrow-right"></i></span>
-                                </Link>
+                                <div className="cta-description" style={{ color: '#ffffff' }}>
+                                    <p style={{ fontSize: '20px', fontWeight: '600', marginBottom: '15px' }}>
+                                        We are a <span style={{ color: '#ffffff' }}>new breed</span> of <br />
+                                        <span style={{ color: '#ffffff', fontSize: '30px', }}>Data</span> and <span style={{ color: '#ffffff',  fontSize: '30px', }}>AI partner</span> bridging
+                                    </p>
+                                    <p style={{ fontSize: '18px', fontWeight: '600', marginBottom: '15px' }}>
+                                        <span style={{ color: '#00e6e6' }}>Consulting</span> | <span style={{ color: '#00e6e6' }}>Experience</span> | <span style={{ color: '#00e6e6' }}>Technology</span>
+                                    </p>
+                                    <p style={{ fontSize: '16px', fontStyle: 'italic' }}>
+                                        From <span style={{ color: '#ffffff' }}>Insight</span> to <span style={{ color: '#ffffff' }}>Impact</span>: <span style={{ color: '#ffffff', fontWeight: 'bold' }}>AI that understands your business</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

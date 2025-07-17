@@ -1,0 +1,83 @@
+.customer-stories-wrapper {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.note {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.story-banner {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.story-image {
+  position: relative;
+  width: 40%;
+}
+
+.story-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nda-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #eee;
+  color: #333;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.story-content {
+  width: 60%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.story-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.story-content p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  align-self: flex-start;
+  background-color: #f3f3f3;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  cursor: not-allowed;
+}
