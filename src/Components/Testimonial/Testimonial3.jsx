@@ -50,11 +50,11 @@ const Testimonial3 = () => {
       }, []);
 
     return (
-        <div className="testimonial4 testimonial-2 position-relative bg6 section-padding" style={{marginTop: '80px'}}  data-background="/assets/img/bg/testimonial4-bg.png">
+        <div className="testimonial4 testimonial-2 position-relative bg6" style={{marginTop: '80px'}}  data-background="/assets/img/bg/testimonial4-bg.png">
         <div className="container">
           <div className="row">
             <div className="col-md-7 m-auto text-center">
-              <div className="heading4-w">
+              <div className="heading4-w" style={{marginTop: '60px'}}>
                     <SectionTitle2
                         SubTitle="Testimonials"
                         Title="What Our Clients Say About PurpleAI"
@@ -86,7 +86,7 @@ const Testimonial3 = () => {
                   </Slider>
                 
                 </div>
-                <div className="testimonial-arrows">
+                <div className="testimonial-arrows" style={{marginBottom: '80px'}}>
                   <div onClick={previous} className="testimonial-prev-arrow">
                     <button><i className="bi bi-arrow-left"></i></button>
                   </div>
