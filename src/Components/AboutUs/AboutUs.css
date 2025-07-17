@@ -1,133 +1,160 @@
 .about-us-section {
-  padding: 60px 20px;
-  background-color: #fdfcff;
+  padding: 80px 20px;
+  background: linear-gradient(145deg, #f0eaff, #ffffff);
   color: #333;
   font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  overflow: hidden;
 }
 
 .about-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
-.subtitle {
-  font-size: 28px;
-  font-weight: 700;
+.heading4 .subtitle {
+  font-size: 32px;
+  font-weight: bold;
   color: #8e2de2;
-  margin-bottom: 10px;
+  animation: slideIn 0.6s ease-out;
 }
 
-.tagline {
-  font-size: 16px;
+.heading4 .title {
+  font-size: 18px;
   color: #666;
 }
 
 .story-section {
-  max-width: 900px;
-  margin: 0 auto 60px;
+  max-width: 880px;
+  margin: 0 auto 80px;
   text-align: center;
+  animation: fadeIn 1s ease forwards;
 }
 
 .story-title {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 700;
   color: #4a148c;
   margin-bottom: 20px;
 }
 
 .story-text {
-  font-size: 15px;
-  line-height: 1.7;
-  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.8;
   color: #555;
+  margin-bottom: 16px;
 }
 
 .cards-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   justify-content: center;
+  gap: 32px;
 }
 
 .info-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 24px;
-  width: 300px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  background: white;
+  border-radius: 16px;
+  padding: 32px 24px;
+  width: 310px;
   text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: zoomIn 0.8s ease forwards;
+  transform: scale(0.9);
   opacity: 0;
-  transform: translateY(30px);
-  animation: fadeInUp 0.8s ease forwards;
 }
 
 .info-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(142, 45, 226, 0.2);
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(142, 45, 226, 0.2);
+  z-index: 1;
 }
 
 .card-icon {
-  font-size: 36px;
-  margin-bottom: 12px;
-  color: #8e2de2;
+  background: linear-gradient(135deg, #7d25ca, #c9b8ee);
+  color: white;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 30px;
+  box-shadow: 0 4px 12px rgba(142, 45, 226, 0.3);
   transition: transform 0.3s ease;
 }
 
 .info-card:hover .card-icon {
-  transform: scale(1.2);
+  transform: scale(1.2) rotate(5deg);
 }
 
 .card-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 12px;
   color: #4a148c;
+  margin-bottom: 12px;
 }
 
 .card-desc {
-  font-size: 14px;
+  font-size: 15px;
   color: #555;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
-/* Animation */
-@keyframes fadeInUp {
+/* Animations */
+@keyframes fadeIn {
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
   }
 }
-/* .info-card {
-  backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.3);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  border-radius: 16px;
-  padding: 24px;
-  width: 300px;
-  color: #333;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+
+@keyframes zoomIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
-.info-card:hover {
-  background: rgba(255, 255, 255, 0.5);
-  transform: scale(1.02);
-} */
-
-.info-card {
-  background: #fff;
-  border-radius: 12px;
-  padding: 24px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer; /* Optional: shows pointer on hover */
+@keyframes slideIn {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-.info-card:hover {
-  transform: scale(1.06); /* Grows 6% larger */
-  box-shadow: 0 12px 30px rgba(142, 45, 226, 0.2);
-  z-index: 2;
+/* Decorative SVG separator */
+.about-us-section::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"><path fill="%23fdfcff" fill-opacity="1" d="M0,96L60,117.3C120,139,240,181,360,176C480,171,600,117,720,101.3C840,85,960,107,1080,133.3C1200,160,1320,192,1380,208L1440,224L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"/></svg>')
+    no-repeat;
+  background-size: cover;
+}
+
+.animated-card {
+  opacity: 1;
+  transform: scale(1);
+  animation: fadeUpZoom 0.7s ease-out forwards;
+}
+
+@keyframes fadeUpZoom {
+  from {
+    opacity: 0;
+    transform: translateY(30px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
