@@ -10,7 +10,7 @@ import Testimonial3 from "../Components/Testimonial/Testimonial3";
 import DataSpectrum from "../Components/DataSpectrum/Dataspectrum";
 import CollaborationModels from "../Components/CollaborationModels/CollaborationModels";
 import AboutUs from "../Components/AboutUs/About";
-import CustomerStories from "../Components/CustomerStories/CustomerStories";
+// import CustomerStories from "../Components/CustomerStories/CustomerStories";
 
 const Home4 = () => {
     return (
