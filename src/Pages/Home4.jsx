@@ -4,7 +4,7 @@ import Cta3 from "../Components/Cta/Cta3";
 import HeroBanner4 from "../Components/HeroBanner/HeroBanner4";
 import HowWork3 from "../Components/HowWork/HowWork3";
 import Pricing1 from "../Components/Pricing/Pricing1";
-import Project3 from "../Components/Project/Project3";
+// import Project3 from "../Components/Project/Project3";
 import Services4 from "../Components/Services/Services4";
 import Testimonial3 from "../Components/Testimonial/Testimonial3";
 import DataSpectrum from "../Components/DataSpectrum/Dataspectrum";
