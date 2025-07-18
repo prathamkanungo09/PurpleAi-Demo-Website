@@ -73,7 +73,7 @@ const Testimonial3 = () => {
                 <Slider ref={sliderRef} {...settings}>
                 {data.map((item, i) => (
                   <div  key={i} className="single-testimonial">
-                    <div className="single-testimonial-nav">
+                    <div className="single-testimonial-nav-nav">
                         <img src={item.icon} alt="" />
                     </div>
                     <h5>{item.desc}</h5>
