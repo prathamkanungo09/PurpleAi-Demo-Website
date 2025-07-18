@@ -32,7 +32,7 @@ const Blog4 = () => {
                             </div>
                             <div className="space50"></div>
                             <div className="heading4">
-                                <h3><Link to="/blog/story-details">How FinTechPro Scaled to 1M Users</Link></h3>
+                                <h3><Link>How FinTechPro Scaled to 1M Users</Link></h3>
                                 <div className="space16"></div>
                                 <p>With our cloud-native architecture, FinTechPro scaled its infrastructure and onboarded 1 million users within 6 months — with 99.99% uptime.</p>
                             </div>
@@ -46,7 +46,7 @@ const Blog4 = () => {
                             </div>
                             <div className="space50"></div>
                             <div className="heading4">
-                                <h3><Link to="/blog/story-details">RetailX Boosts Sales by 40% Using AI</Link></h3>
+                                <h3><Link>RetailX Boosts Sales by 40% Using AI</Link></h3>
                                 <div className="space16"></div>
                                 <p>RetailX used our AI-powered recommendation engine and witnessed a 40% increase in sales conversions during the festive season.</p>
                             </div>
